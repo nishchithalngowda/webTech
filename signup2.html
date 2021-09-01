@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SIGNUP FORM</title>
+    <link rel="stylesheet" href="style34.css">
+
+    <form class="reg-form">
+   <p class="helper-text">* denotes a required field</p>
+   <div class="field-row">
+      <label class="form-label" for="firstName"><b>First name<b></label>
+      <input type="text" id="firstName" class="field text-field first-name-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label cf" for="lastName"><b>Last name<b></label>
+      <input type="text" id="lastName" class="field text-field last-name-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="initials"><b>Father Name</b></label>
+      <input type="text" id="initials" class="field text-field initials-field">
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="dateOfBirth"><b>Date of birth<b></label>
+      <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1900-01-01" max="2015-09-18"  required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="tel"><b>Mobile Num</b></label>
+      <input type="tel" id="tel" class="field text-field tel-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="hs"><b>current place</b></label>
+      <input type="text" id="hs" class="field text-field hs-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="tel"><b>Permanent Address<b></label>
+      <input type="tel" id="tel" class="field text-field address-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label"><b>trip plan</b></label>
+      <select class="form-dropdown field">
+         <option value="1st Sem"> 1 day </option>
+         <option value="2nd Sem"> 2 day </option>
+         <option value="3rd Sem"> 3 day </option>
+         <option value="4th Sem"> 4 day </option>
+         <option value="5th Sem"> 1 week </option>
+          <option value="6th Sem">holiday </option>
+      </select>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="email"><b>Email<b></label>
+      <input type="email" id="email" class="field text-field email-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="hs"><b>Password</b></label>
+      <input type="text" id="hs" class="field text-field hs-field" required>
+      <span class="message"></span>
+   </div>
+<table >
+
+
+<td><b>Documents</b> <br /><br /><br /></td>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+travel proof
+<input type="checkbox" name="travel proof" value="travel proof" />
+Adhar Card
+<input type="checkbox" name="Adhar Card" value="Adhar Card" />
+VISA
+<input type="checkbox" name="visa" value="visa" />
+Voter ID
+<input type="checkbox" name="Voter ID" value="Voter ID" />
+<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+Covid Vaccination Status
+<input type="checkbox" name="COVID-STATUS" value="Covid Vaccination Status">
+<input type="text" name="Covid Vaccination Status" maxlength="30" />
+</td>
+</tr>
+</table>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Gender: <input type="radio" name="status" style="margin-left: 10px">Male
+   <input type="radio" name="status">Female
+
+
+   <div class="field-row">
+      <label class="form-label"></label>
+      <br>
+      <br>
+
+      <button class="form-button"onclick="myFunction()" >Register</button>
+
+      <script>
+      function myFunction(){
+        window.location="registersuc.html"
+      }
+      </script>
+      <input type="button"value="Reset" style="background:orange">
+   </div>
+</form>
+
+  </body>
+</html>

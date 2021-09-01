@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style32.css">
+    <script type="login.js">
+        </script>
+  </head>
+  <body>
+    <br>
+    <br>
+  <font color="white">
+    <h2 align="center"><b>login with valid useranme(FIRST NAME AS YOU GIVEN IN REGISTRED FORM) and password</b></h2>
+    </font>
+
+<h2>please go through this video tutorial and the login with valid password</h2>
+<div class="imgbx">
+            <embed type="image/jpg" src="login.jpg" width="800" height="300" >
+
+</div>
+
+      <br>
+      <br>
+      <h3 align="center" color="#fff">
+        <font face="Lato" size="4" align="left" color="red">
+      download your travel proof document here ,and upload it on travel portal </h3>
+
+      <object type="application/pdf"
+            data="download"
+            width="300"
+            height="200">
+      <a href="file:///C:/Users/nirikshith/Desktop/web%20Tech/lab31/Fee%20Demand%20Slip%20Receipt.pdf">download pdf</a>
+    </object>
+
+    <form class="box" action="login1.html" method="post">
+
+      <h1>Login</h1>
+      <input type="text" name=""  placeholder="Enter Username" id="username">
+        <input type="password" name="" placeholder="Enter Password" id="password">
+          <input type="submit" name=""  value="Login" onclick="validate()">
+          <br>
+          <button type="button" class="btn" onclick="myFunction()">NEXT</button>
+          <script>
+          function myFunction(){
+            window.location="registersuc.html"
+          }
+
+          </script>
+
+    </form>
+    <script>
+      function validate() {
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(username=="nishchitha" && password=="gowda")
+        {
+          alert("login succesfully");
+
+        }
+            else
+            {
+              alert("login failed");
+
+            }
+
+
+
+
+      }
+
+
+    </script>
+
+
+
+
+  </body>
+</html>

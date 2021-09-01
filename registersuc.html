@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>registeed data</title>
+    <title>window.location</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+  <section align="center">
+
+  </section>
+
+  <marquee width="60%" direction="right" height="100px">
+    <h3>
+      <span style="color:blue"> registred succefully</span>
+     </h3>
+  </marquee>
+
+    <b><h2> PLEASE SPEND SUFFICIENT TIME TO READ ALL THESE BELOW MENTIONED DETAILS, TO AVOID ANY KIND OF LOSS, CONFUSION OR MISUNDERSTANDINGS...</h2>
+    </b>
+    <ol>
+      <li>One of the oldest civilisations in the world, India is a mosaic of multicultural experiences. With a rich heritage and myriad attractions, the country is among the most popular tourist destinations in the world. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan heights to the tropical rain forests of the south. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity</li>
+      <li>Approved Revised Guidelines for Champion Services Sector Scheme (CSSS Scheme) - Incentive to Tour Operators for Enhancing Tourist Arrivals to India. </li>
+    <br>
+
+<li>Revised guidelines for Empanelment of Private Bodies, Institutions, Organaisations as training providers for hospitality trades under the Hunar Se Rozgar Tak programme of the Ministry of Tourism</li>
+
+
+      </ol>
+
+
+      <h2><span style="color:red">HAPPY</span>JOURNEY
+        <span style="color:green">!!!!!</span>...........................</h2>
+
+    <ol>
+      <li>please wait one second</li>
+      <li>we will redirecting you to home page</li>
+      <li>plaese click READY</li>
+      </ol>
+      <br>
+      <h2> It's the travel time....,<br>It's time to roam<br>
+        the world how good<br>you are...,BEST OF KUCK!</h2>
+      <object data="flower.mp4" width="400" height="300"></object>
+
+      <input type="button" value ="READY" onclick="myFunction()" style="margin-left: 200px;background: deeppink">
+      <script>
+      function myFunction(){
+        window.location="tourisum.html"
+      }
+      </script>
+
+
+
+</html>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>

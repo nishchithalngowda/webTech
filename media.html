@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Media website</title>
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="music1.css" >
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+
+        <img align="center" src="catmusic.gif" width="145" height="126" >
+
+
+
+        <ul>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          <li><a href="#">HOME</a></li>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          <li><a href="#">ABOUT US</a></li>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          <li><a href="#">SPECIFICATION</a></li>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          <li><a href="#">PLAN</a></li>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          <li><a href="#">CONNECT</a></li>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+
+        </ul>
+
+      </div>
+
+      <img src="tour.jpeg" alt="tour" usemap="tour" width="400" height="379">
+
+
+			<map name="tour">
+			  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://wazirx.com/exchange/BTC-INR">
+			  <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://play.google.com/store/apps/details?id=com.wrx.wazirx&referrer=utm_source%3DWazirX%2520Desktop%26utm_medium%3DHome%26utm_term%3DDownload%2520App">
+			  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.cafecoffeeday.com/">
+
+		</map>
+
+
+
+
+      <div class="player">
+
+        <audio controls>
+        <source src="audioinsructor.mp3" type="audio/mp3">
+
+          </audio>
+
+
+          <video width="500" controls>
+            <source src="videoinstruction.mp4" type="video/mp4">
+            </video>
+
+      </div>
+
+
+      <div class="content">
+
+
+        <div class="leftcol">
+
+
+
+        </div>
+
+
+        <script>
+        function myFunction3(){
+          window.location="video.html"
+        }
+
+        </script>
+        <div class="rightcol">
+          <h1>travel over globe  </h1>
+          <p>click here to listen</p>
+
+          <img src="play.jpg" id="icon">
+
+        </div>
+
+      </div>
+
+    </div>
+
+<audio  id="mysong">
+  <source src="dilko.mp3" type="audio/mp3">
+</audio>
+
+<script>
+var mysong=document.getElementById("mysong");
+var mysong=document.getElementById("icon");
+icon.onclick=function(){
+  if(mysong.paused){
+      mysong.play();
+      icon.src="pause.jpg";
+  }else {
+    {
+      mysong.pause();
+      icon.src="play.jpg";
+    }
+  }
+
+}
+
+</script>
+<br>
+
+
+</body>
+
+
+</html>
